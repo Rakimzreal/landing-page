@@ -15,7 +15,7 @@ body{
     background: #e5e5e5;
     color: #222222;
     accent-color: #f4b400;
-    
+    overflow-x: hidden;
     
 }
 
@@ -36,7 +36,7 @@ nav .container{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    
+    flex-wrap: wrap;
     
     
 }
@@ -45,6 +45,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     
 }
 nav ul li a {
@@ -68,6 +69,7 @@ section .header{
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    
 }
 
 .header h1 {
@@ -84,6 +86,7 @@ header .about{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .header img {
     max-width: 500px;
@@ -102,21 +105,20 @@ header .about{
    content: "";
    left: 50%;
    top: 0;
-   transform: translateX(-50%);
    width: 100vw;
+   transform: translateX(-50%);
    height: 100%;
    background-color: #797059;
    z-index: -1;
-
    
 }
+
 .info {
   position: relative;
   z-index: 1;
   padding: 2rem 0;
   
 }
-
 
 .box{
     text-align: center;
@@ -130,6 +132,7 @@ header .about{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .text{
     text-align: center;
@@ -138,6 +141,7 @@ header .about{
     justify-content: center;
     align-items: center;
     min-height: 60px;
+    flex-wrap: wrap;
 
 }
 .features img{
@@ -150,7 +154,7 @@ header .about{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+    flex-wrap: wrap;
     position: relative;
     z-index: 1;
     padding: 2rem 0;
@@ -174,7 +178,7 @@ header .about{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 .texts{
     max-width: 600px;
@@ -182,6 +186,8 @@ header .about{
     flex-direction: column;
     gap: 5px;
     margin-top: 10px;
+    padding: 2rem 0;
+    flex-wrap: wrap;
 }
 .neon{
     font-weight: bold;
@@ -203,4 +209,29 @@ button{
 }
 button:hover{
     font-size: 12px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #797059;
+    color: #f4b400;
+    padding: 2rem 1rem 0 1rem;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.copyright{
+    text-align: center;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
 }
