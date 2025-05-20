@@ -127,3 +127,12 @@ header .about{
 
    
 }
+section .box{
+    background-color: #df4e4e;
+    display: flex;
+
+}
+
+.box h2 {
+    
+}
