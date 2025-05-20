@@ -106,6 +106,7 @@ header .about{
 .header img {
     max-width: 500px;
     height: auto;
+    border-radius: 8px;
 }
 .group{
    position: relative;
@@ -127,12 +128,38 @@ header .about{
 
    
 }
-section .box{
-    background-color: #df4e4e;
-    display: flex;
-
+.info {
+  position: relative;
+  z-index: 1;
+  padding: 2rem 0;
+  
 }
 
-.box h2 {
-    
+
+.box{
+    text-align: center;
+}
+.box h2{
+    margin-bottom: 10px;
+}
+
+.highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+
+}
+.features img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
 }
