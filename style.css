@@ -6,5 +6,11 @@
 }
 body{
     font-family: Poppins, sans-serif, Aria;
-    
+    background-color: #1e1e1e;
+    color: #f4e04d;
+}
+
+.logo{
+    font-size: 24px;
+
 }
