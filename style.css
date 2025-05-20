@@ -4,13 +4,24 @@
     padding: 0;
     
 }
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 body{
-    font-family: Poppins, sans-serif, Aria;
-    background-color: #1e1e1e;
-    color: #f4e04d;
+    font-family: "Poppins", sans-serif, Aria;
+    background: #e5e5e5;
+    color: #222222;
+    accent-color: #f4b400;
+    
 }
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
+}
 
+nav .container{
+    display: flex;
 }
