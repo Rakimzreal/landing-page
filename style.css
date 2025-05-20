@@ -188,3 +188,21 @@ header .about{
     background-color: #f4b400;
     z-index: -1;
 }
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texts{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.neon{
+    font-weight: bold;
+}
+.stay{
+    font-size: 14px;
+}
