@@ -53,6 +53,15 @@ nav ul li a {
     margin-left: 10px;
 
 }
+nav ul li a:hover{
+    color: #f4b400;
+    opacity: 0.6;
+    
+}
+nav ul li a[aria-current="page"] {
+    color: #f4b400;
+    opacity: 0.6;
+}
 
 section .header{
     display: flex;
@@ -80,9 +89,15 @@ section .header{
     font-weight: bold;
     font-size: 15px;
     max-width: 200px;
+    transition: all 0.7s ease;
 
 
 }
+
+.header button:hover{
+    font-size: 12px;
+}
+
 header .about{
     display: flex;
     flex-direction: column;
@@ -95,7 +110,7 @@ header .about{
 .group{
    position: relative;
    z-index: 1;
-   min-height: 90vh;
+   min-height: 85vh;
    
 
 }
